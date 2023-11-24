@@ -100,7 +100,7 @@ class PeminjamanController extends Controller
             'nama_peminjam' => $request->nama_peminjam,
             'tanggal_peminjaman' => $request->tgl_peminjaman,
             'tanggal_pengembalian' => $request->tgl_pengembalian,
-            'surat' => $request->surat,
+            'surats' => $request->surat,
         ]);
 
         $file = $request->file('surat');
